@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "gold-calculator",
+    "slug": "gold-calculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/calculator.jpg",
+    "splash": {
+      "image": "./assets/calculator.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "black"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
